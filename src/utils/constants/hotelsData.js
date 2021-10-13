@@ -1,0 +1,48 @@
+const hotelsData = [
+  {
+    id: '1',
+    name: 'Doubles',
+    location: 'Green street,Central district',
+    price: 120,
+    beds: 2,
+    baths: 1,
+    rating: 4,
+    image: require('../../assets/doubles-bed.jpg'),
+    details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consequat nisl vel pretium lectus quam id leo. Velit euismod in pellentesque massa placerat duis ultricies lacus sed. Justo laoreet sit amet cursus sit`,
+  },
+  {
+    id: '2',
+    name: 'Singles',
+    location: 'Yuki street',
+    price: 70,
+    beds: 1,
+    baths: 1,
+    rating: 5,
+    image: require('../../assets/single-bed.jpg'),
+    details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consequat nisl vel pretium lectus quam id leo. Velit euismod in pellentesque massa placerat duis ultricies lacus sed. Justo laoreet sit amet cursus sit`,
+  },
+  {
+    id: '3',
+    name: 'Penthouse 1',
+    location: 'Almond street',
+    price: 190,
+    beds: 3,
+    baths: 2,
+    rating: 4,
+    image: require('../../assets/penthouse1.jpg'),
+    details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consequat nisl vel pretium lectus quam id leo. Velit euismod in pellentesque massa placerat duis ultricies lacus sed. Justo laoreet sit amet cursus sit`,
+  },
+  {
+    id: '4',
+    name: 'Penthouse 2',
+    location: 'Main street',
+    price: 300,
+    beds: 2,
+    baths: 2,
+    rating: 5,
+    image: require('../../assets/penthouse2.jpg'),
+    details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consequat nisl vel pretium lectus quam id leo. Velit euismod in pellentesque massa placerat duis ultricies lacus sed. Justo laoreet sit amet cursus sit`,
+  },
+];
+
+export default hotelsData;
